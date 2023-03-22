@@ -1,0 +1,109 @@
+.loginScreen {
+  position: relative;
+  height: 100%;
+  background: url("https://149695847.v2.pressablecdn.com/wp-content/uploads/2019/05/apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d.jpg")
+    center no-repeat;
+}
+
+.loginScreen__background {
+  /* border: 1px solid red; */
+}
+
+.loginScreen__logo {
+  position: fixed;
+  left: 0;
+  width: 150px;
+  object-fit: contain;
+  padding-top: 20px;
+  padding-left: 20px;
+  /* border: 1px solid red; */
+}
+
+.loginScreen__button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #e50914;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid red;
+}
+
+.loginScreen__gradient {
+  width: 100%;
+  z-index: 1;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
+
+.loginScreen__body {
+  z-index: 1;
+  color: white;
+  position: fixed;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+}
+
+.loginScreen__body > h1 {
+  font-size: 3.125rem;
+  margin-bottom: 20px;
+}
+
+.loginScreen__body > h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.loginScreen__body > h3 {
+  font-size: 1.125rem;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.loginScreen_input {
+  /* border: 1px solid yellow; */
+  margin: 20px;
+}
+
+.loginScreen_input > form > input {
+  opacity: 0.8;
+  border: 1px solid rgba(128, 128, 128, 0.7);
+  font-size: 16px;
+  background: transparent;
+  vertical-align: middle;
+  color: white;
+  padding: 10px;
+  outline-width: 0;
+  height: 34px;
+  width: 30%;
+  border-radius: 5px;
+
+  max-width: 600px;
+  margin-left: 45px;
+  margin-right: 5px;
+}
+
+.loginScreen_input > form > button {
+  vertical-align: middle;
+  font-size: 1rem;
+  padding: 15px 20px;
+  color: white;
+  background-color: #e50914;
+  border-color: transparent;
+  border-radius: 5px;
+  outline: none;
+  font-weight: 600;
+  cursor: pointer;
+}

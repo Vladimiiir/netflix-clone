@@ -1,0 +1,45 @@
+.plansScreen__options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.plansScreen__options:hover {
+  opacity: 0.5;
+  transition: all 100ms;
+  color: rgba(108, 122, 137);
+}
+
+.plansScreen > h3 {
+  border-bottom: 1px solid grey;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.plansScreen > h5 {
+  margin-bottom: 30px;
+}
+
+.plansScreen__options > button {
+  background-color: #e50914;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  height: 30px;
+  cursor: pointer;
+  width: 150px;
+}
+
+.plansScreen__options--disabled > button {
+  background-color: gray;
+  color: white;
+}
+
+.plansScreen__info {
+  font-size: 1.5rem;
+}

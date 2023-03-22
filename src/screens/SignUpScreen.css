@@ -1,0 +1,85 @@
+.signupScreen {
+  max-width: 300px;
+  padding: 70px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 100vh;
+}
+
+.signupScreen > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signupScreen > form > h1 {
+  margin-bottom: 10px;
+}
+
+.signupScreen > form > input {
+  outline-width: 0;
+  height: 30px;
+  margin-bottom: 14px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 15px;
+  color: white;
+}
+
+.signupScreen > form > button {
+  padding: 16px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #e50914;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* .signupScreen > form > h5 {
+  margin-top: 10px;
+} */
+
+.signupScreen__createAccount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.signupScreen__createAccount > :first-child {
+  color: gray;
+  margin-right: 5px;
+}
+
+.signupScreen__createAccount > :nth-child(2):hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.signInWithGoogle {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  border: 1px solid gray;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.signInWithGoogle > img {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
+
+.signInWithGoogle > button {
+  border: 1px solid green;
+  border-radius: 5px;
+  margin-left: 20px;
+  height: 50px;
+  background-color: #fff;
+  border: none;
+  font-weight: 800;
+  font-size: 1rem;
+}
